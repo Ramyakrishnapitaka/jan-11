@@ -1,0 +1,86 @@
+#about img{
+    border-radius: 50%;
+}
+
+#about{
+    background-image:url(https://img.freepik.com/premium-photo/work-performance-is-influenced-by-skills-abilities-competence-concept-individual_27634-911.jpg?size=626&ext=jpg&ga=GA1.1.1026588990.1705045538&semt=sph);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#education{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb-Kj57VhToCRxMc1lJ-O2OaQ2AckwQVE5l9FvYODlqCcQoraGoUnEb-KvEQ&s);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#location{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdA8jrP1XngvESEk8clAbIeMJeSG6o0Tx-ITTJ72vDouRxt430ErC55WCyQ&s);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#inspiration{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWXezCPkNrO0ROOxFpcjDt196rcC_IJotEg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#skills{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtu_VYKUSDwBnLdyEcST0nkehEph4yOOdfg4na65QjwNNiSWjdER8Gc3QIIg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#skll{
+    animation-name: skill;
+    animation-duration:10s;
+    
+}
+@keyframes skill{
+    0%{color: blue;}
+    20%{color: brown;}
+    40%{color: darkblue;}
+    60%{color:crimson;}
+    80%{color:aqua;}
+    100%{color:blueviolet;}
+}
+#img3{
+    position: relative;
+    top: -25px;
+}
+#location1{
+    position: relative;
+    top: -25px;
+}
+
+#heading{
+    font-color: yellow;
+}
+mark{
+  background-color: red;
+  color: blue;
+}
+#heading{
+    font-family: serif;
+    color: brown;
+}
+#edu{
+    animation-name: educatio;
+    animation-duration:40s;
+}
+@keyframes educatio{
+    0%{color: blue;}
+    10%{color: brown;}
+    30%{color: darkblue;}
+    40%{color:crimson;}
+    50%{color:aqua;}
+    60%{color:blueviolet;}
+     70%{color: brown;}
+    80%{color: darkblue;}
+    90%{color:crimson;}
+    100%{color:aqua;}
+    150%{color:blueviolet;}
+}
+    
